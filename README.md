@@ -25,10 +25,19 @@ The data set is from BoomBikes that have various variables that are related to t
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+After data analysis, preparation, modeling, and testing, we found that:
+
+Our model fits the data well, with good R-squared values 
+Our model predicts the variance accurately, with near-zero mean squared error for both sets. We used p-values, VIF, and RFE to select the best variables.
+Bike demand depends on temperature, workingday, season, month, day, and holiday. Winter has more rentals than summer and spring. September and October are popular months. Wed, Thurs, and Sat are busy days.
+We suggest more marketing in summer and spring, and more incentives on cloudy days. We need to retain repeat customers as rentals increased from 2018 to 2019.
+Summary:
+We did data processing, modeling, and evaluation, and discovered that:
+
+Our model explains the data well, with R-squared values of 82.71% and 81.13% for train and test sets respectively.
+Our model predicts the variance well, with almost zero mean squared error for both sets. We used p-values, VIF, and RFE to choose the best variables.
+Bike demand varies with temperature, workingday, season, month, day, and holiday. Winter has more rentals than summer and spring. September and October are high-demand months. Wed, Thurs, and Sat are peak days.
+We recommend more promotion in summer and spring, and more deals on cloudy days. We need to keep repeat customers as rentals grew from 2018 to 2019.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
